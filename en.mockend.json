@@ -1,0 +1,34 @@
+{
+
+
+  "SIDE_NAV_BAR" : {
+
+    "COLUMN_SETUP": "Column Setup",
+
+    "ACCOUNT_INFO" : {
+
+        "THEME" : "Dark Mode",
+        "LANGUAGE" : "Language",
+        "LOGOUT" : "Logout"
+
+    }
+  
+},
+
+  "TOP_NAV_BAR" : {
+    
+    "SYSTEM_ADMIN" : "System administration",
+    "COMPANY_ADMIN" : "Company administration",
+    "COMPANY_SETUP" : "Company setup",
+    "USER_ADMIN" : "User administration"
+
+  }
+
+
+  
+
+ 
+
+
+
+}
