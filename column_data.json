@@ -1,0 +1,177 @@
+[
+    {
+        "columnId": "c01",
+        "columnName": "Status",
+        "defaultWidth": 150,
+        "fieldName": "status",
+        "viewType": []
+    },
+    {
+        "columnId": "c02",
+        "columnName": "Received Date",
+        "defaultWidth": 150,
+        "fieldName": "receivedDateTime",
+        "viewType": []
+    },
+    {
+        "columnId": "c03",
+        "columnName": "Direction",
+        "defaultWidth": 150,
+        "fieldName": "direction",
+        "viewType": []
+    },
+    {
+        "columnId": "c04",
+        "columnName": "Company",
+        "defaultWidth": 150,
+        "fieldName": "company",
+        "viewType": []
+    },
+    {
+        "columnId": "c05",
+        "columnName": "File Name",
+        "defaultWidth": 150,
+        "fieldName": "fileName",
+        "viewType": []
+    },
+    {
+        "columnId": "c06",
+        "columnName": "Sum",
+        "defaultWidth": 150,
+        "fieldName": "sum",
+        "viewType": []
+    },
+    {
+        "columnId": "c07",
+        "columnName": "No. of Invoices",
+        "defaultWidth": 150,
+        "fieldName": "invCount",
+        "viewType": []
+    },
+    {
+        "columnId": "c08",
+        "columnName": "Document Type",
+        "defaultWidth": 150,
+        "fieldName": "documentType",
+        "viewType": []
+    },
+    {
+        "columnId": "c09",
+        "columnName": "Sender Name",
+        "defaultWidth": 150,
+        "fieldName": "senderName",
+        "viewType": []
+    },
+    {
+        "columnId": "c10",
+        "columnName": "Receiver Name",
+        "defaultWidth": 150,
+        "fieldName": "receiverName",
+        "viewType": []
+    },
+    {
+        "columnId": "c11",
+        "columnName": "Customer Reference",
+        "defaultWidth": 150,
+        "fieldName": "customerRef",
+        "viewType": []
+    },
+    {
+        "columnId": "c12",
+        "columnName": "Requested Channel",
+        "defaultWidth": 150,
+        "fieldName": "requestedChannel",
+        "viewType": []
+    },
+    {
+        "columnId": "c13",
+        "columnName": "Actual Channel",
+        "defaultWidth": 150,
+        "fieldName": "actualChannel",
+        "viewType": []
+    },
+    {
+        "columnId": "c14",
+        "columnName": "Invoice Number",
+        "defaultWidth": 150,
+        "fieldName": "invNo",
+        "viewType": []
+    },
+    {
+        "columnId": "c15",
+        "columnName": "Invocie Name",
+        "defaultWidth": 150,
+        "fieldName": "invName",
+        "viewType": []
+    },
+    {
+        "columnId": "c16",
+        "columnName": "Ocr",
+        "defaultWidth": 150,
+        "fieldName": "ocr",
+        "viewType": []
+    },
+    {
+        "columnId": "c17",
+        "columnName": "Channel Status",
+        "defaultWidth": 150,
+        "fieldName": "channelStatus",
+        "viewType": []
+    },
+    {
+        "columnId": "c18",
+        "columnName": "Update Time",
+        "defaultWidth": 150,
+        "fieldName": "updateTime",
+        "viewType": []
+    },
+    {
+        "columnId": "c19",
+        "columnName": "Order Date",
+        "defaultWidth": 150,
+        "fieldName": "orderDate",
+        "viewType": []
+    },
+    {
+        "columnId": "c20",
+        "columnName": "Order Number",
+        "defaultWidth": 150,
+        "fieldName": "orderNo",
+        "viewType": []
+    },
+    {
+        "columnId": "c21",
+        "columnName": "Amount",
+        "defaultWidth": 150,
+        "fieldName": "amount",
+        "viewType": []
+    },
+    {
+        "columnId": "c22",
+        "columnName": "Issue Date",
+        "defaultWidth": 150,
+        "fieldName": "issueDate",
+        "viewType": []
+    },
+    {
+        "columnId": "c23",
+        "columnName": "Start Date",
+        "defaultWidth": 150,
+        "fieldName": "startDate",
+        "viewType": []
+    },
+    {
+        "columnId": "c24",
+        "columnName": "End Date",
+        "defaultWidth": 150,
+        "fieldName": "endDate",
+        "viewType": []
+    },
+    {
+        "columnId": "c25",
+        "columnName": "Catalogue Ref Number",
+        "defaultWidth": 150,
+        "fieldName": "catalogueRefNo",
+        "viewType": []
+    }
+]

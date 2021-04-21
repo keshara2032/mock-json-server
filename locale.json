@@ -1,27 +1,602 @@
 {
-
-  "en" : 
-            {
-              "SIDE_NAV_BAR" : {
-
-                "COLUMN_SETUP": "Column Setup",
-                "ACCOUNT_INFO" : {
-                    "THEME" : "Dark Mode",
-                    "LANGUAGE" : "Language",
-                    "LOGOUT" : "Logout"
-                }
-              
-            },
-
-
-              "TOP_NAV_BAR" : {
-
-                "SYSTEM_ADMIN" : "System administration",
-                "COMPANY_ADMIN" : "Company administration",
-                "COMPANY_SETUP" : "Company setup",
-                "USER_ADMIN" : "User administration"
-
-              }
-            }
-
+  "English": {
+    "APP": {
+      "SIDE_NAV_BAR": {
+        "COLUMN_SETUP": "Column Setup",
+        "ACCOUNT_INFO": {
+          "THEME": "Dark Mode",
+          "LANGUAGE": "Language",
+          "LOGOUT": "Logout"
+        }
+      },
+      "TOP_NAV_BAR": {
+        "SYSTEM_ADMIN": "System administration",
+        "COMPANY_ADMIN": "Company administration",
+        "COMPANY_SETUP": "Company setup",
+        "USER_ADMIN": "User administration"
+      },
+      "COMMON": {
+        "UPDATE": "Update",
+        "SAVE": "Save",
+        "CANCEL": "Cancel",
+        "EDIT": "Edit",
+        "DELETE": "Delete",
+        "NEXT": "Next",
+        "PREV": "Prev",
+        "CREATE": "Create",
+        "SEARCH": "Search",
+        "APPLY": "Apply",
+        "OK": "Ok",
+        "RESET": "Reset"
+      }
+    },
+    "SYSTEM_ADMINISTRATION": {
+      "ACCOUNT_OWNERS": "Account Owners",
+      "OWNERS_LIST_AND_FORM": {
+        "NO_ACCOUNTS_FOUND": "No accounts owners found.",
+        "OWNER_NAME": "Owner Name",
+        "IDENTIFICATION_TYPE": "Identification type",
+        "IDENTIFICATION_VALUE": "Identification value",
+        "OWNER_TYPE": "Owner type",
+        "SHOWING": "Showing",
+        "OWNER": "Owner",
+        "OWNERS": "Owners",
+        "EDIT_MODE_UPDATE": "Update account owner",
+        "EDIT_MODE_CREATE": "Add new account owner",
+        "EDIT_MODE_UPDATE_BUTTON": "Update owner",
+        "EDIT_MODE_CREATE_BUTTON": "Create owner",
+        "CREATE": "Create owner"
+      },
+      "MENU": {
+        "account-owners": {
+          "TITLE": "Account owners",
+          "INITIALS": "AO"
+        },
+        "workflow-designer": {
+          "TITLE": "Workflow desginer",
+          "INITIALS": "WD"
+        }
+      }
+    },
+    "COMPANY_ADMINISTRATION": {
+      "COMPANY-INFO-MANAGEMENT": {
+        "ORGANISATION": {
+          "COMPANY_DETAILS": "Company details"
+        },
+        "ORGANISATION-FORM": {
+          "EDIT_MODE_UPDATE": "Update company details",
+          "EDIT_MODE_CREATE": "Create new company details",
+          "DESCRIPTION": "Description",
+          "CONTACT_DETAILS": "Contact details",
+          "EMAIL": "Email",
+          "TELEPHONE": "Telephone",
+          "WEBSITE": "Website",
+          "CONTACT_PERSON": "Contact person",
+          "ADDRESS": {
+            "ADDRESS": "Address",
+            "CITY": "City",
+            "STREET": "Street",
+            "STATE": "State",
+            "POSTAL_CODE": "Postal code",
+            "COUNTRY": "Country"
+          },
+          "SET_AS_MAIN_ORGANISATION": "Set as main organisation",
+          "ORG_NUM_ERROR_EXIST": "Organisation number already exists.",
+          "ORG_NUM_ERROR_INVALID": "Organisation number is invalid."
+        },
+        "INFORMATION": {
+          "COMPANY_INFORMATION": "Company information",
+          "COMPANY_NAME": "Company name",
+          "COUNTRY": "Country",
+          "ORGANISATION_NUMBER": "Organisation number",
+          "PARENT_COMPANY": "Parent company",
+          "CRM_ID": "CRM ID",
+          "NAV_ID": "Nav ID",
+          "INVOICE_DIRECT": "Invoice direct",
+          "REPORT_DIRECT": "Report direct",
+          "ENROLLMENT_REGISTER": "Enrollment register"
+        }
+      },
+      "MENU": {
+        "company-info": {
+          "TITLE": "Company information",
+          "INITIALS": "CI"
+        },
+        "account-management": {
+          "TITLE": "Account management",
+          "INITIALS": "AM"
+        },
+        "user-login-logs": {
+          "TITLE": "User login logs",
+          "INITIALS": "UL"
+        }
+      }
+    },
+    "TRANSACTION_MODULE": {
+      "COMMON": {
+        "WAITING": "Waiting",
+        "FAILING": "Failing",
+        "TOTAL_TRANSACTIONS": "Total Transactions",
+        "COLUMN_SETUP": "Column Setup",
+        "FOR_THIS_SESSION": "For this session",
+        "SET_AS_DEFAULT": "Set as default"
+      },
+      "TYPES": {
+        "FILES": "All Files",
+        "DOCUMENTS": "All Documents",
+        "INVOICES": "All Invoices",
+        "ORDERS": "All Orders",
+        "CATALOGUES": "All Catalogues"
+      },
+      "DIRECTION": {
+        "ALL": "All",
+        "INBOUND": "Inbound",
+        "OUTBOUND": "Outbound"
+      },
+      "COMPANIES": {
+        "SELECT_COMPANIES": "Select Companies",
+        "SELECTED_COMPANIES": "Selected Companies",
+        "SELECTED": "selected"
+      },
+      "CALENDAR": {
+        "DATE_SELECTION": "Date Selection",
+        "SET_DATE_RANGE": "Set date range:",
+        "QUICK_LINKS": {
+          "ST": "Select Today",
+          "TW": "This Week",
+          "LW": "Last Week",
+          "L2W": "Last Two Weeks",
+          "CM": "Current Month",
+          "PM": "Previous Month",
+          "TQ": "This Quarter",
+          "LQ": "Last Quarter",
+          "L6M": "Last Six Months",
+          "L12M": "Last Twelve Months",
+          "CY": "Current Year"
+        }
+      },
+      "TRANSACTION_GRID": {
+        "COLUMNS": {
+          "status": "Status",
+          "receivedDateTime": "Received Date",
+          "direction": "Direction",
+          "company": "Company",
+          "fileName": "File Name",
+          "sum": "Sum",
+          "invCount": "No. of Invoices",
+          "documentType": "Document Type",
+          "senderName": "Sender Name",
+          "receiverName": "Receiver Name",
+          "customerRef": "Customer Reference",
+          "requestedChannel": "Requested Channel",
+          "actualChannel": "Actual Channel",
+          "invNo": "Invoice Number",
+          "invName": "Invocie Name",
+          "ocr": "Ocr",
+          "channelStatus": "Channel Status",
+          "updateTime": "Update Time",
+          "orderDate": "Order Date",
+          "orderNo": "Order Number",
+          "amount": "Amount",
+          "issueDate": "Issue Date",
+          "startDate": "Start Date",
+          "endDate": "End Date",
+          "catalogueRefNo": "Catalogue Ref Number"
+        }
+      }
+    },
+    "SHARED": {
+      "COMPANY_SIDEBAR": {
+        "ORGANIZATION_NUMBER": "Org num",
+        "COMPANIES": "Companies",
+        "NO_COMPANIES_FOUND": "No Companies found"
+      },
+      "COMPANY_SIDE_NAV": {},
+      "CONFIRMATION_MODAL": {
+        "YES": "Yes",
+        "NO": "No",
+        "OK": "Ok"
+      }
+    }
+  },
+  "Norwegian": {
+    "APP": {
+      "SIDE_NAV_BAR": {
+        "COLUMN_SETUP": "Kolonneinnstilling",
+        "ACCOUNT_INFO": {
+          "THEME": "Mørk modus",
+          "LANGUAGE": "Språk",
+          "LOGOUT": "Logg ut"
+        }
+      },
+      "TOP_NAV_BAR": {
+        "SYSTEM_ADMIN": "System administrasjon",
+        "COMPANY_ADMIN": "Selskap administrasjon",
+        "COMPANY_SETUP": "Selskap Oppsett",
+        "USER_ADMIN": "Bruker administrasjon"
+      },
+      "COMMON": {
+        "UPDATE": "Update",
+        "SAVE": "Save",
+        "CANCEL": "Avbryt",
+        "EDIT": "Redigere",
+        "DELETE": "Slett",
+        "PREV": "Tidligere",
+        "NEXT": "Neste",
+        "CREATE": "Create",
+        "SEARCH": "Søk",
+        "APPLY": "Søke om",
+        "OK": "Ok",
+        "RESET": "Nullstille"
+      }
+    },
+    "SYSTEM_ADMINISTRATION": {
+      "ACCOUNT_OWNERS": "Regnskap Eieren",
+      "OWNERS_LIST_AND_FORM": {
+        "NO_ACCOUNTS_FOUND": "Ingen kontoeiere funnet.",
+        "OWNER_NAME": "Eiers navn",
+        "IDENTIFICATION_TYPE": "Identifikasjon type",
+        "IDENTIFICATION_VALUE": "Identifikasjon verdi",
+        "OWNER_TYPE": "Eiers type",
+        "SHOWING": "Viser",
+        "OWNER": "Eiers",
+        "OWNERS": "Eiere",
+        "EDIT_MODE_UPDATE": "Oppdater kontoeier",
+        "EDIT_MODE_CREATE": "Legg til ny kontoeier",
+        "EDIT_MODE_UPDATE_BUTTON": "Oppdater eier",
+        "EDIT_MODE_CREATE_BUTTON": "Opprett eier",
+        "CREATE": "Opprett eier"
+      },
+      "MENU": {
+        "account-owners": {
+          "TITLE": "Konto eier",
+          "INITIALS": "KE"
+        },
+        "workflow-designer": {
+          "TITLE": "Workflow desginer",
+          "INITIALS": "WD"
+        }
+      }
+    },
+    "COMPANY_ADMINISTRATION": {
+      "COMPANY-INFO-MANAGEMENT": {
+        "ORGANISATION": {
+          "COMPANY_DETAILS": "Firma detaljer"
+        },
+        "ORGANISATION-FORM": {
+          "EDIT_MODE_UPDATE": "Oppdater firmadetaljer",
+          "EDIT_MODE_CREATE": "Lag nye firmadetaljer",
+          "DESCRIPTION": "Beskrivelse",
+          "CONTACT_DETAILS": "Kontaktinformasjon",
+          "EMAIL": "Email",
+          "TELEPHONE": "Telefon",
+          "WEBSITE": "Nettsted",
+          "CONTACT_PERSON": "Kontaktperson",
+          "ADDRESS": {
+            "ADDRESS": "Adresse",
+            "CITY": "By",
+            "STREET": "Gate",
+            "STATE": "Stat",
+            "POSTAL_CODE": "Postnummer",
+            "COUNTRY": "Country"
+          },
+          "SET_AS_MAIN_ORGANISATION": "Sett som hovedorganisasjon",
+          "ORG_NUM_ERROR_EXIST": "Organisasjonsnummer eksisterer allerede.",
+          "ORG_NUM_ERROR_INVALID": "Organisasjonsnummeret er ugyldig."
+        },
+        "INFORMATION": {
+          "COMPANY_INFORMATION": "Firmainformasjon",
+          "COMPANY_NAME": "Selskapsnavn",
+          "COUNTRY": "Country",
+          "ORGANISATION_NUMBER": "Organisasjonsnummer",
+          "PARENT_COMPANY": "Moderselskap",
+          "CRM_ID": "CRM ID",
+          "NAV_ID": "Nav ID",
+          "INVOICE_DIRECT": "Faktura direkte",
+          "REPORT_DIRECT": "Rapporter direkte",
+          "ENROLLMENT_REGISTER": "Påmeldingsregister"
+        }
+      },
+      "MENU": {
+        "company-info": {
+          "TITLE": "Firmainformasjon",
+          "INITIALS": "FI"
+        },
+        "account-management": {
+          "TITLE": "Kontoadministrasjon",
+          "INITIALS": "KA"
+        },
+        "user-login-logs": {
+          "TITLE": "Brukerinnloggingslogger",
+          "INITIALS": "BL"
+        }
+      }
+    },
+    "TRANSACTION_MODULE": {
+      "COMMON": {
+        "WAITING": "Venter",
+        "FAILING": "Mislykkes",
+        "TOTAL_TRANSACTIONS": "Totale transaksjoner",
+        "COLUMN_SETUP": "Kolonneinnstilling",
+        "SET_AS_DEFAULT": "Satt som standard",
+        "FOR_THIS_SESSION": "For denne økten"
+      },
+      "TYPES": {
+        "FILES": "Alle filer",
+        "DOCUMENTS": "Alle dokumenter",
+        "INVOICES": "Alle fakturaer",
+        "ORDERS": "Alle bestillinger",
+        "CATALOGUES": "Alle kataloger"
+      },
+      "DIRECTION": {
+        "ALL": "Alle",
+        "INBOUND": "Inngående",
+        "OUTBOUND": "Utgående"
+      },
+      "COMPANIES": {
+        "SELECTED": "valgt",
+        "SELECT_COMPANIES": "Velg selskaper",
+        "SELECTED_COMPANIES": "Utvalgte selskaper"
+      },
+      "CALENDAR": {
+        "DATE_SELECTION": "Datovalg",
+        "SET_DATE_RANGE": "Angi datoperiode:",
+        "QUICK_LINKS": {
+          "ST": "Velg i dag",
+          "TW": "Denne uka",
+          "LW": "Forrige uke",
+          "L2W": "Siste to uker",
+          "CM": "Denne måneden",
+          "PM": "Forrige måned",
+          "TQ": "Dette kvartalet",
+          "LQ": "Siste kvartal",
+          "L6M": "Siste seks måneder",
+          "L12M": "Siste tolv måneder",
+          "CY": "Dette året"
+        }
+      },
+      "TRANSACTION_GRID": {
+        "COLUMNS": {
+          "status": "Status",
+          "receivedDateTime": "Mottatt dato",
+          "direction": "Retning",
+          "company": "Selskap",
+          "fileName": "Filnavn",
+          "sum": "Sum",
+          "invCount": "Antall fakturaer",
+          "documentType": "dokumenttype",
+          "senderName": "Avsenders navn",
+          "receiverName": "Mottakers navn",
+          "customerRef": "Kundereferanse",
+          "requestedChannel": "Forespurt kanal",
+          "actualChannel": "Faktisk kanal",
+          "invNo": "Fakturanummer",
+          "invName": "Fakturanavn",
+          "ocr": "Ocr",
+          "channelStatus": "Kanalstatus",
+          "updateTime": "Oppdateringstid",
+          "orderDate": "Bestillingsdato",
+          "orderNo": "Ordrenummer",
+          "amount": "Beløp",
+          "issueDate": "Utgivelsesdato",
+          "startDate": "Startdato",
+          "endDate": "Sluttdato",
+          "catalogueRefNo": "Katalog Ref-nummer"
+        }
+      }
+    },
+    "SHARED": {
+      "COMPANY_SIDEBAR": {
+        "ORGANIZATION_NUMBER": "Org num",
+        "COMPANIES": "Companies",
+        "NO_COMPANIES_FOUND": "No Companies found"
+      },
+      "COMPANY_SIDE_NAV": {},
+      "CONFIRMATION_MODAL": {
+        "YES": "Yes",
+        "NO": "No",
+        "OK": "Ok"
+      }
+    }
+  },
+  "Swedish": {
+    "APP": {
+      "SIDE_NAV_BAR": {
+        "COLUMN_SETUP": "Kolumninställning",
+        "ACCOUNT_INFO": {
+          "THEME": "Mörkt läge",
+          "LANGUAGE": "Språk",
+          "LOGOUT": "Logga ut"
+        }
+      },
+      "TOP_NAV_BAR": {
+        "SYSTEM_ADMIN": "Systemet Administrering",
+        "COMPANY_ADMIN": "Företag Administrering",
+        "COMPANY_SETUP": "Företag Uppstart",
+        "USER_ADMIN": "Användare Administrering"
+      },
+      "COMMON": {
+        "UPDATE": "Update",
+        "SAVE": "Save",
+        "CANCEL": "Avbryt",
+        "EDIT": "Redigera",
+        "DELETE": "Radera",
+        "PREV": "Tidigare",
+        "NEXT": "Nästa",
+        "CREATE": "Create",
+        "SEARCH": "Sök",
+        "APPLY": "Tillämpa",
+        "OK": "Ok",
+        "RESET": "Återställa"
+      }
+    },
+    "SYSTEM_ADMINISTRATION": {
+      "ACCOUNT_OWNERS": "Konto ägare",
+      "OWNERS_LIST_AND_FORM": {
+        "NO_ACCOUNTS_FOUND": "Inga kontoägare hittades.",
+        "OWNER_NAME": "Ägarnamn",
+        "IDENTIFICATION_TYPE": "Identifieringtyp",
+        "IDENTIFICATION_VALUE": "Identifiering värde",
+        "OWNER_TYPE": "Ägartyp",
+        "SHOWING": "Som visar",
+        "OWNER": "Ägare",
+        "OWNERS": "Ägare",
+        "EDIT_MODE_UPDATE": "Uppdatera kontoägaren",
+        "EDIT_MODE_CREATE": "Lägg till ny kontoägare",
+        "EDIT_MODE_UPDATE_BUTTON": "Uppdatera ägaren",
+        "EDIT_MODE_CREATE_BUTTON": "Skapa ägare",
+        "CREATE": "Skapa ägare"
+      },
+      "MENU": {
+        "account-owners": {
+          "TITLE": "Konto ägare",
+          "INITIALS": "KA"
+        },
+        "workflow-designer": {
+          "TITLE": "Arbetsflöde desginer",
+          "INITIALS": "AD"
+        }
+      }
+    },
+    "COMPANY_ADMINISTRATION": {
+      "COMPANY-INFO-MANAGEMENT": {
+        "ORGANISATION": {
+          "COMPANY_DETAILS": "Company details"
+        },
+        "ORGANISATION-FORM": {
+          "EDIT_MODE_UPDATE": "Update company details",
+          "EDIT_MODE_CREATE": "Create new company details",
+          "DESCRIPTION": "Description",
+          "CONTACT_DETAILS": "Contact details",
+          "EMAIL": "Email",
+          "TELEPHONE": "Telephone",
+          "WEBSITE": "Website",
+          "CONTACT_PERSON": "Contact person",
+          "ADDRESS": {
+            "ADDRESS": "Address",
+            "CITY": "City",
+            "STREET": "Street",
+            "STATE": "State",
+            "POSTAL_CODE": "Postal code",
+            "COUNTRY": "Country"
+          },
+          "SET_AS_MAIN_ORGANISATION": "Set as main organisation",
+          "ORG_NUM_ERROR_EXIST": "Organisation number already exists.",
+          "ORG_NUM_ERROR_INVALID": "Organisation number is invalid."
+        },
+        "INFORMATION": {
+          "COMPANY_INFORMATION": "Company information",
+          "COMPANY_NAME": "Company name",
+          "COUNTRY": "Country",
+          "ORGANISATION_NUMBER": "Organisation number",
+          "PARENT_COMPANY": "Parent company",
+          "CRM_ID": "CRM ID",
+          "NAV_ID": "Nav ID",
+          "INVOICE_DIRECT": "Invoice direct",
+          "REPORT_DIRECT": "Report direct",
+          "ENROLLMENT_REGISTER": "Enrollment register"
+        }
+      },
+      "MENU": {
+        "company-info": {
+          "TITLE": "Företagsinformation",
+          "INITIALS": "FI"
+        },
+        "account-management": {
+          "TITLE": "Kontohantering",
+          "INITIALS": "KH"
+        },
+        "user-login-logs": {
+          "TITLE": "Loggar för användarinloggningar",
+          "INITIALS": "LA"
+        }
+      }
+    },
+    "TRANSACTION_MODULE": {
+      "COMMON": {
+        "WAITING": "Väntar",
+        "FAILING": "Misslyckas",
+        "TOTAL_TRANSACTIONS": "Totalt antal transaktioner",
+        "COLUMN_SETUP": "Kolumninställning",
+        "SET_AS_DEFAULT": "Ange som standard",
+        "FOR_THIS_SESSION": "För den här sessionen"
+      },
+      "TYPES": {
+        "FILES": "Alla filer",
+        "DOCUMENTS": "Alla dokument",
+        "INVOICES": "Alla fakturor",
+        "ORDERS": "Alla beställningar",
+        "CATALOGUES": "Alla kataloger"
+      },
+      "DIRECTION": {
+        "ALL": "Allt",
+        "INBOUND": "Inkommande",
+        "OUTBOUND": "Utgående"
+      },
+      "COMPANIES": {
+        "SELECTED": "vald",
+        "SELECT_COMPANIES": "Välj företag",
+        "SELECTED_COMPANIES": "Valda företag"
+      },
+      "CALENDAR": {
+        "DATE_SELECTION": "Datumval",
+        "SET_DATE_RANGE": "Ställ in datumintervall:",
+        "QUICK_LINKS": {
+          "ST": "Välj idag",
+          "TW": "Denna vecka",
+          "LW": "Förra veckan",
+          "L2W": "De senaste två veckorna",
+          "CM": "Denna månad",
+          "PM": "Förra månaden",
+          "TQ": "Detta kvartal",
+          "LQ": "Sista kvartalet",
+          "L6M": "Senaste sex månaderna",
+          "L12M": "Senaste tolv månaderna",
+          "CY": "Nuvarande år"
+        }
+      },
+      "TRANSACTION_GRID": {
+        "COLUMNS": {
+          "status": "Status",
+          "receivedDateTime": "Mottaget datum",
+          "direction": "Riktning",
+          "company": "Företag",
+          "fileName": "Filnamn",
+          "sum": "Belopp",
+          "invCount": "Antal fakturor",
+          "documentType": "Dokumenttyp",
+          "senderName": "Avsändarens namn",
+          "receiverName": "Mottagarens namn",
+          "customerRef": "Kundreferens",
+          "requestedChannel": "Begärd kanal",
+          "actualChannel": "Faktisk kanal",
+          "invNo": "Fakturanummer",
+          "invName": "Fakturanamn",
+          "ocr": "Ocr",
+          "channelStatus": "Kanalstatus",
+          "updateTime": "Uppdaterings tid",
+          "orderDate": "Orderdatum",
+          "orderNo": "Ordernummer",
+          "amount": "Belopp",
+          "issueDate": "Utgivningsdatum",
+          "startDate": "Start datum",
+          "endDate": "Slutdatum",
+          "catalogueRefNo": "Katalog Ref-nummer"
+        }
+      }
+    },
+    "SHARED": {
+      "COMPANY_SIDEBAR": {
+        "ORGANIZATION_NUMBER": "Org num",
+        "COMPANIES": "Companies",
+        "NO_COMPANIES_FOUND": "No Companies found"
+      },
+      "COMPANY_SIDE_NAV": {},
+      "CONFIRMATION_MODAL": {
+        "YES": "Yes",
+        "NO": "No",
+        "OK": "Ok"
+      }
+    }
+  }
 }
